@@ -15,8 +15,8 @@
 
          configure_health_check/2, configure_health_check/3]).
 
--include_lib("erlcloud/include/erlcloud.hrl").
--include_lib("erlcloud/include/erlcloud_aws.hrl").
+-include_lib("erlcloud.hrl").
+-include_lib("erlcloud_aws.hrl").
 
 -define(API_VERSION, "2012-06-01").
 

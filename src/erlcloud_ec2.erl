@@ -169,6 +169,9 @@
 -include_lib("erlcloud/include/erlcloud.hrl").
 -include_lib("erlcloud/include/erlcloud_aws.hrl").
 -include_lib("erlcloud/include/erlcloud_ec2.hrl").
+-include_lib("erlcloud.hrl").
+-include_lib("erlcloud_aws.hrl").
+-include_lib("erlcloud_ec2.hrl").
 
 -type(filter_list() :: [{string(),[string()]}]).
 
