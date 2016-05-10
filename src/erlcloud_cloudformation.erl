@@ -1,7 +1,7 @@
 -module (erlcloud_cloudformation).
 
--include_lib("erlcloud/include/erlcloud.hrl").
--include_lib("erlcloud/include/erlcloud_aws.hrl").
+-include_lib("erlcloud.hrl").
+-include_lib("erlcloud_aws.hrl").
 
 -define(API_VERSION, "2010-05-15").
 
